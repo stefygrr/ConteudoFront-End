@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.25rem; 
+}
+
+.section-container h2 {
+    text-align: center; 
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.section-container {
+    margin-bottom: 1rem; 
+}
+@media (max-width: 767.98px) {
+    
+    .navbar-nav {
+        text-align: center;
+        width: 100%;
+    }
+    .navbar-nav .nav-item {
+        margin: 0;
+    }
+}
+
+.carousel-caption h5 {
+    font-size: 5rem;
+}
+
+.contact-section {
+    background-color: #f0f0f0; 
+}
+
+.info-item {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 15px;
+}
+
+.info-item i {
+    color: #007bff; /* Cor dos ícones */
+}
+
+.info-item h3 {
+    margin: 0 0 5px 0;
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.info-item p {
+    margin: 0;
+    color: #555;
+}
+
+.about-section {
+    background-color: #f9f9f9; /* Fundo cinza claro */
+    padding: 60px 0; /* Ajuste o espaçamento conforme necessário */
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.about-section p {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagem dos sonhos</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        p {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Pacotes</li>
+                <li>Taxa</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+        <h1 style="color: red">Venha realizar a viagem dos seus sonhos!</h1>
+    </header>
+    <section>
+        <h2>Conheça nossos pacotes </h2>
+        <p style="color: blue;">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi eos et fugiat maxime temporibus ad nihil,
+            veniam vel nostrum sed voluptatibus libero velit. Libero vero quasi odio similique aspernatur expedita Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Itaque vero illum voluptatibus laudantium aperiam officia
+            id cupiditate ea! Ex neque dolores cupiditate, aliquam quis maiores velit laboriosam tempore culpa aliquid!.
+            <br><br>
+            <a href="https://www.lipsum.com/feed/html">Link</a>
+            <hr>
+        </p>
+        
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi eos et fugiat maxime temporibus ad nihil,
+            veniam vel nostrum sed voluptatibus libero velit. Libero vero quasi odio similique aspernatur expedita Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Itaque vero illum voluptatibus laudantium aperiam officia
+            id cupiditate ea! Ex neque dolores cupiditate, aliquam quis maiores velit laboriosam tempore culpa aliquid!.
+            <br><br>
+            <hr>
+        </p>
+        
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi eos et fugiat maxime temporibus ad nihil,
+            veniam vel nostrum sed voluptatibus libero velit. Libero vero quasi odio similique aspernatur expedita Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Itaque vero illum voluptatibus laudantium aperiam officia
+            id cupiditate ea! Ex neque dolores cupiditate, aliquam quis maiores velit laboriosam tempore culpa aliquid!.
+            <br><br>
+            <hr>
+        </p>
+        <figure>
+            <img src="/PrimeiraAula/img/gramado.jpeg" alt="Imagem da cidade de Gramado">
+            <figcaption>Gramado</figcaption>
+        </figure>
+        <figure>
+            <img src="/PrimeiraAula/img/porto-alegre.jpeg" alt="Mar de Porto Alegre">
+            <figcaption>Porto Alegre</figcaption>
+        </figure>
+        <figure>
+            <img src="/PrimeiraAula/img/rio-de-janeiro.jpeg" alt="Cristo redentor Rio de Janeiro">
+            <figcaption>Rio de Janeiro</figcaption>
+        </figure>
+    </section>
+    <video controls width="500px">
+        <source src="video/rabbit320.mp4" type="Coelho">
+        <source src="/video/rabbit320.webm" type="coelho">
+        Seu navegador não suporta o formato do vídeo. <a href="video/rabbit320.mp4">Clique aqui para assistir</a>
+    </video>
+    <br><br>
+    <section>
+        <h2>Taxas e serviços</h2>
+        <p>Veja o que temos para te oferecer</p>
+        <table border>
+            <caption>Descrição dos serviços e respectivos valores</caption>
+            <thead>
+                <tr>
+                    <th>
+                        Serviços
+                    </th>
+                    <th>
+                        Valor
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Reserva de hotel
+                    </td>
+                    <td>
+                        R$500,00
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Compra de passagens
+                    </td>
+                    <td>
+                        R$100,00
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Aluguel de carros
+                    </td>
+                    <td>
+                        R$50,00
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h2>Orçamento</h2>
+        <form action="" method="get">
+
+            <fieldset>
+                <legend>Dados da viagem</legend>
+                <label>Nome</label><br>
+                <input type="text" name="nome"><br><br>
+
+                <label>Email</label><br>
+                <input type="email" required name="Email"><br><br>
+
+                <label>Data de ida</label><br>
+                <input type="date" name="dataIda"><br><br>
+
+                <label>Data de volta</label><br>
+                <input type="date" name="dataVolta"><br><br>
+
+                <label>Quantidade de pessoas</label><br>
+                <input type="number" name="qtbPessoas"><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Quais serviços deseja contratar?</legend>
+                <label>
+                    <br><input type="checkbox" name="passagens" value="Passagens">Compra de passagens
+                </label>
+                <label>
+                    <br><input type="checkbox" name="hospedagem" value="Hospedagem">Reserva de hospedagem
+                </label>
+                <label>
+                    <br><input type="checkbox" name="veículos" value="Veículos">Reserva de veículos
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Escolha a forma de pagamento</legend>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Cartão de crédito">Cartão de crédito
+                    <br><input type="radio" name="formaPagamento" value="Pix">Pix
+                    <br><input type="radio" name="formaPagamento" value="Cartão de débito">Cartão de débito
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Escolha o prazo para o pagamento</legend>
+                <select name="prazoPagamento">
+                    <option value="aVista">Á vista</option>
+                    <option value="5x">5x sem juros</option>
+                    <option value="10x" selected>10x com juros</option>
+                </select>
+            </fieldset>
+
+            <label>Comentário</label><br>
+            <textarea rows="5" name="comentario"></textarea><br><br>
+
+            <button>Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>Desenvolvido por Stephany Camily</p>
+    </footer>
+</body>
+
+</html>
